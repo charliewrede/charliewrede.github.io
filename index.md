@@ -10,7 +10,7 @@ Here's my linkedin!
 <a 
   href="www.linkedin.com/in/charlie-wrede-8b65ab231"
   target="_blank">
-  a link
+  Charlie-Wrede
 </a> 
 
 Education: BA in Geography, certificate in GIS and Computational Science, expected May 2026. Minor in Computer Science expected August 2026
