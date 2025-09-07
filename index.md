@@ -28,4 +28,4 @@ Heres a photo of me!
 <img 
   src="IMG_5462.JPG" 
   alt="Camping!" 
-  width="75%">
+  width="50%">
