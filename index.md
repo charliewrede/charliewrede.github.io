@@ -8,7 +8,7 @@ Github: charliewrede
 
 Here's my linkedin!
 <a 
-  href="www.linkedin.com/in/charlie-wrede-8b65ab231"
+  href="charlie-wrede-8b65ab231"
   target="_blank">
   Charlie-Wrede
 </a> 
@@ -25,4 +25,7 @@ Heres a video showing what GIS is!
 
 Heres a photo of me!
 
-![Camping!](IMG_5462.JPG)
+<img 
+  src="IMG_5462.JPG" 
+  alt="Camping!" 
+  width="75%">
