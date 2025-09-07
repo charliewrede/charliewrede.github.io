@@ -13,3 +13,5 @@ Education: BA in Geography, certificate in GIS and Computational Science, expect
 Professional: GIS Intern at Tallgrass Energy Summer 2025
 
 Biography: Hello! My name is Charlie and I am passionate about GIS and Computer Science and specifically in GIS development and datascience. I am hoping to continue to learn more about Computer Science as I progress as a student and hope to get a minor and possibly a Bachelors or Masters in Computer Science. I also would like to work within either the tech or environmental field. This is because I am motivated to solve the most difficult and fulfilling problems I can that will help me to become a better programmer.
+Heres a video showing what GIS is!
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WpoSofhf9Y0?si=hNxrVdQmYIu0o4Al" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
