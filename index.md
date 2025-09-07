@@ -6,7 +6,7 @@ Email: chwr4840@colorado.edu
 
 Github: charliewrede
 
-Linkedin: www.linkedin.com/in/charlie-wrede-8b65ab231 
+Linkedin: <a href="www.linkedin.com/in/charlie-wrede-8b65ab231" target="_blank">www.linkedin.com/in/charlie-wrede-8b65ab231</a>
 
 Education: BA in Geography, certificate in GIS and Computational Science, expected May 2026. Minor in Computer Science expected August 2026
 
