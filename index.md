@@ -22,3 +22,10 @@ Biography: Hello! My name is Charlie and I am passionate about GIS and Computer 
 Heres a video showing what GIS is!
 
 <a href="https://www.youtube.com/watch?v=WpoSofhf9Y0" target="_blank">https://www.youtube.com/watch?v=WpoSofhf9Y0</a>
+
+Heres a photo of me!
+
+<img 
+  src="C:\Users\Charlie Wrede\Downloads\IMG_5462.JPG" 
+  alt="Me camping!" 
+  width="75%">
