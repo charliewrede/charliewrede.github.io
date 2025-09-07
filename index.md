@@ -8,7 +8,7 @@ Github: charliewrede
 
 Here's my linkedin!
 <a 
-  href="charlie-wrede-8b65ab231"
+  href="https://www.linkedin.com/in/charlie-wrede-8b65ab231"
   target="_blank">
   Charlie-Wrede
 </a> 
