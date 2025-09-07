@@ -25,7 +25,4 @@ Heres a video showing what GIS is!
 
 Heres a photo of me!
 
-<img 
-  src="C:\Users\Charlie Wrede\Downloads\IMG_5462.JPG" 
-  alt="Me camping!" 
-  width="75%">
+![Camping!](C:\Users\Charlie Wrede\Downloads\IMG_5462.JPG)
