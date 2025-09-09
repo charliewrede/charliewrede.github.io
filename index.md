@@ -31,4 +31,5 @@ Here's a photo of me!
   width="50%">
 
 Here's a map I made of my favorite vacation spot in Sicily!
+
 <embed type="text/html" src="Brucoli.html" width="600" height="600">
