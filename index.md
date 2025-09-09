@@ -23,9 +23,12 @@ Heres a video showing what GIS is!
 
 <a href="https://www.youtube.com/watch?v=WpoSofhf9Y0" target="_blank">https://www.youtube.com/watch?v=WpoSofhf9Y0</a>
 
-Heres a photo of me!
+Here's a photo of me!
 
 <img 
   src="IMG_5462.JPG" 
   alt="Camping!" 
   width="50%">
+
+Here's a map I made of my favorite vacation spot in Sicily!
+<embed type="text/html" src="Brucoli.html" width="600" height="600">
