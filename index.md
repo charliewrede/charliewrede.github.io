@@ -30,6 +30,6 @@ Here's a photo of me!
   alt="Camping!" 
   width="50%">
 
-Here's a map I made of my favorite vacation spot in Sicily!
+Here's a map I made using Python of my favorite vacation spot in Sicily!
 
 <embed type="text/html" src="Brucoli.html" width="600" height="600">
