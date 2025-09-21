@@ -1,3 +1,4 @@
+theme: jekyll-theme-minimal 
 #Earth Data Science Portfolio
 
 Charlie Salvatore Wrede
