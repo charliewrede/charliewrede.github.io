@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Earth Data Science Portfolio - Charlie Wrede</title>
+  <title>Charlie's Portfolio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
