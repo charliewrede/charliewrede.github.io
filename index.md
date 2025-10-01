@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal 
+
 
 #Earth Data Science Portfolio
 
@@ -35,3 +35,25 @@ Here's a photo of me!
 Here's a map I made using Python of my favorite vacation spot in Sicily!
 
 <embed type="text/html" src="Brucoli.html" width="600" height="600">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Philadelphia Climate Project</title>
+</head>
+<body>
+
+  <h1>Philadelphia Climate Project</h1>
+
+  <!-- Link to HTML file -->
+  <p>
+    View the interactive chart here: 
+    <a href="annual_climate_plot.html" target="_blank">Annual Climate Plot</a>
+  </p>
+
+  <!-- Embed specific plot -->
+  <h2>Annual Average Temperature Trend</h2>
+  <img src="philly_temp_trend.png" alt="Trend in Annual Average Temperature" width="600">
+
+</body>
+</html>
