@@ -1,2 +1,2 @@
-# charliewrede.portfolio.github.io
+# charliewrede.github.io
 This is my professional portfolio!
