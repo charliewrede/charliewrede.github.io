@@ -81,18 +81,24 @@
     <h2> Here's a Photo of Me! </h2>
     <img src="IMG_5462.JPG" alt="Camping!" width="50%">
   </div>
+<div class="section">
+  <h2> Here's a Photo of Me! </h2>
+  <img src="IMG_5462.JPG" alt="Camping!" style="max-width:40%; height:auto;">
+</div>
 
-  <div class="section">
-    <h2> Projects </h2>
-    <h3> Mapping Assignment in Python </h3>
-    <p>Here’s a map I made in Python of my favorite vacation spot in Sicily (Brucoli):</p>
-    <embed type="text/html" src="Brucoli.html" width="600" height="600">
-    <h3> Temperature Change overtime in Center City, Philadelphia </h3>
-    <iframe src="portfolio_posts/philly_temp_trend.png" 
-        width="100%" 
-        height="600" 
-        style="border:none;">
-</iframe>
+<div class="section">
+  <h2> Projects </h2>
+
+  <h3> Mapping Assignment in Python </h3>
+  <p>Here’s a map I made in Python of my favorite vacation spot in Sicily (Brucoli):</p>
+  <embed type="text/html" src="Brucoli.html" width="500" height="500" style="max-width:90%;">
+
+  <h3> Temperature Change over time in Center City, Philadelphia </h3>
+  <iframe src="portfolio_posts/Climate_Code_Total.html" 
+          width="80%" 
+          height="450" 
+          style="border:none; max-width:800px;">
+  </iframe>
 
 <p>
    <a href="portfolio_posts/Climate_Code_Total.html" target="_blank">
