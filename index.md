@@ -53,8 +53,7 @@
 
   <div class="section">
     <h2>Education</h2>
-    <p>BA in Geography, certificate in GIS and Computational Science (expected May 2026).  
-       Minor in Computer Science (expected August 2026).</p>
+    <p>BA in Geography, certificate in GIS and Computational Science (expected May 2026).  </p>
   </div>
 
   <div class="section">
