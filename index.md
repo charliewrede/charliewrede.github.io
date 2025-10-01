@@ -76,11 +76,6 @@
       <a href="https://www.youtube.com/watch?v=WpoSofhf9Y0" target="_blank">Watch Video</a>
     </p>
   </div>
-
-  <div class="section">
-    <h2> Here's a Photo of Me! </h2>
-    <img src="IMG_5462.JPG" alt="Camping!" width="50%">
-  </div>
 <div class="section">
   <h2> Here's a Photo of Me! </h2>
   <img src="IMG_5462.JPG" alt="Camping!" style="max-width:40%; height:auto;">
