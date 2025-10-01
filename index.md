@@ -91,7 +91,7 @@
   <h3>Temperature Change over Time in Center City, Philadelphia</h3>
   <img src="portfolio_posts/philly_temp_trend.png" 
      alt="Temperature Trend in Philadelphia" 
-     style="max-width:40%; height:auto;">
+     style="max-width:100%; height:auto;">
 
 <p>
    <a href="portfolio_posts/Climate_Code_Total.html" target="_blank">
