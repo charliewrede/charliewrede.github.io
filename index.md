@@ -88,11 +88,17 @@
     <p>Here’s a map I made in Python of my favorite vacation spot in Sicily (Brucoli):</p>
     <embed type="text/html" src="Brucoli.html" width="600" height="600">
     <h3> Temperature Change overtime in Center City, Philadelphia </h3>
-    <p>View the interactive chart here:  
-      <a href="annual_climate_plot.html" target="_blank">Annual Climate Plot</a>
-    </p>
-    <p>Annual Average Temperature Trend</p>
-    <img src="philly_temp_trend.png" alt="Trend in Annual Average Temperature" width="600">
+    <iframe src="portfolio_posts/Climate_Code_Total.html" 
+        width="100%" 
+        height="600" 
+        style="border:none;">
+</iframe>
+
+<p>
+   <a href="portfolio_posts/Climate_Code_Total.html" target="_blank">
+    View Full Chart and Code
+  </a>
+</p>
   </div>
 
 </body>
