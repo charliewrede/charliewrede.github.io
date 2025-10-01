@@ -92,6 +92,7 @@
   <img src="portfolio_posts/philly_temp_trend.png" 
      alt="Temperature Trend in Philadelphia" 
      style="max-width:100%; height:auto;">
+     <p> This is a chart showing how temperature has changed in Center City, Philadelphia from 1993 to 2025. The data was specifically taken from from the Franklin Institute in Center City, Philadelphia. The data type used was Temperature at the time of observation. A OLS regression model was run on the data and shows significant warming in the area at a rate of 0.17 degrees Celsius a year. This data is quite variable though and so this warming could be slightly larger or smaller than what is shown here. </p>
 
 <p>
    <a href="portfolio_posts/Climate_Code_Total.html" target="_blank">
