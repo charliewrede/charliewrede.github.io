@@ -89,11 +89,9 @@
   <embed type="text/html" src="Brucoli.html" width="500" height="500" style="max-width:90%;">
 
   <h3>Temperature Change over Time in Center City, Philadelphia</h3>
-<iframe src="portfolio_posts/philly_temp_trend(1).png"
-        width="60%" 
-        height="300" 
-        style="border:none; max-width:600px;">
-</iframe>
+<img src="portfolio_posts/philly_temp_trend(1).png" 
+     alt="Temperature Trend in Philadelphia" 
+     style="width:60%; max-width:600px; height:auto; border:none;">
 
 <p>
    <a href="portfolio_posts/Climate_Code_Total.html" target="_blank">
