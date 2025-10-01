@@ -88,12 +88,12 @@
   <p>Here’s a map I made in Python of my favorite vacation spot in Sicily (Brucoli):</p>
   <embed type="text/html" src="Brucoli.html" width="500" height="500" style="max-width:90%;">
 
-  <h3> Temperature Change over time in Center City, Philadelphia </h3>
-  <iframe src="portfolio_posts/philly_temp_trend.png" 
-          width="80%" 
-          height="450" 
-          style="border:none; max-width:800px;">
-  </iframe>
+  <h3>Temperature Change over Time in Center City, Philadelphia</h3>
+<iframe src="portfolio_posts/philly_temp_trend.png" 
+        width="60%" 
+        height="300" 
+        style="border:none; max-width:600px;">
+</iframe>
 
 <p>
    <a href="portfolio_posts/Climate_Code_Total.html" target="_blank">
