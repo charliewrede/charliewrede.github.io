@@ -76,7 +76,7 @@
   </div>
 <div class="section">
   <h2> Here's a Photo of Me! </h2>
-  <img src="IMG_5462.JPG" alt="Camping!" style="max-width:40%; height:auto;">
+  <img src="IMG_5462.JPG" alt="Camping!" style="max-width:60%; height:auto;">
 </div>
 
 <div class="section">
@@ -98,6 +98,9 @@
   </a>
 </p>
   </div>
-
+<h3> Ruby Throated Hummingbirds Migration Project <h3>
+  <embed type="text/html" src="portfolio_posts/migration.html" width="500" height="500" style="max-width:90%;">
+  <p> Here is an interactive map showing Ruby Throated Hummingbirds migration by month over the course of the year 2023. First lets learn some background about the beautiful Ruby Throated Hummingbird! Heres an image of a male:  <img src="303881521-480px.jpg" alt="Hummingbird!" style="max-width:40%; height:auto;"> 
+  </p>
 </body>
 </html>
