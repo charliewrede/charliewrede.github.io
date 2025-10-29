@@ -97,12 +97,12 @@
     View Full Chart and Code
   </a>
 </p>
-  </div>
 <h3> Ruby Throated Hummingbirds Migration Project <h3>
   <embed type="text/html" src="portfolio_posts/migration.html" width= "100%" height= "800">
   <p> Here is an interactive map showing Ruby Throated Hummingbirds migration by month over the course of the year 2023. First lets learn some background about the beautiful Ruby Throated Hummingbird! Heres an image of a male:</p>
   <img src="303881521-480px.jpg" alt="Hummingbird!" style="max-width:40%; height:auto;">
   <p> Now lets learn some fun facts about this awesome beautiful bird. Firstly, the Ruby
   </p>
+  </div>
 </body>
 </html>
