@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Charlie's Portfolio</title>
+  <style>
+    /* GENERAL PAGE STYLING */
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* CONTAINER TO CENTER CONTENT AND MAKE WIDER */
+    .content {
+      width: 90%;
+      max-width: 1200px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+    h1, h2 {
+      color: #004080;
+    }
+
+    .section {
+      background: #fff;
+      padding: 25px;
+      margin-bottom: 35px;
+      border-radius: 8px;
+      box-shadow: 0 0 6px rgba(0,0,0,0.1);
+    }
+
+    a {
+      color: #c0392b;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    img {
+      max-width: 100%;
+      border: 2px solid #ddd;
+      border-radius: 4px;
+      display: block;
+      margin: 15px auto;
+    }
+
+    embed {
+      width: 100%;
+      height: 700px;
+      border: 2px solid #ddd;
+      border-radius: 4px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="content">
+
+    <h1>Charlie Salvatore Wrede</h1>
+    <h2>Hello! This is my Portfolio!</h2>
+
+    <div class="section">
+      <p><b>Email:</b> chwr4840@colorado.edu</p>
+      <p><b>GitHub:</b> <a href="https://github.com/charliewrede" target="_blank">charliewrede</a></p>
+      <p><b>LinkedIn:</b> 
+        <a href="https://www.linkedin.com/in/charlie-wrede-8b65ab231" target="_blank">Charlie Wrede</a>
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <p>BA in Geography, certificate in GIS and Computational Science (expected May 2026).</p>
+    </div>
+
+    <div class="section">
+      <h2>Professional</h2>
+      <p>GIS Intern at Tallgrass Energy (Summer 2025)</p>
+    </div>
+
+    <div class="section">
+      <h2>Biography</h2>
+      <p>Hello! My name is Charlie and I am passionate about GIS and Computer Science, specifically GIS development and data science.  
+         I am hoping to continue to learn more about Computer Science as I progress as a student and I hope to get a minor or Masters in Computer Science.  
+         I would like to work within either the tech or environmental field because I am motivated to solve challenging and fulfilling problems that will help me to become a better programmer.</p>
+    </div>
+
+    <div class="section">
+      <h2>What is GIS?</h2>
+      <p>Here’s a video showing what GIS is:  
+        <a href="https://www.youtube.com/watch?v=WpoSofhf9Y0" target="_blank">Watch Video</a>
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Here's a Photo of Me!</h2>
+      <img src="IMG_5462.JPG" alt="Camping!" style="max-width:60%; height:auto;">
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+
+      <h3>Mapping Assignment in Python</h3>
+      <p>Here’s a map I made in Python of my favorite vacation spot in Sicily (Brucoli):</p>
+      <embed type="text/html" src="Brucoli.html">
+
+      <h3>Temperature Change over Time in Center City, Philadelphia</h3>
+      <img src="portfolio_posts/philly_temp_trend.png" alt="Temperature Trend in Philadelphia">
+      <p>This is a chart showing how temperature has changed in Center City, Philadelphia from 1993 to 2025. The data was specifically taken from from the Franklin Institute in Center City, Philadelphia. The data type used was Temperature at the time of observation. An OLS regression model was run on the data and shows significant warming in the area at a rate of 0.17°C per year.</p>
+
+      <p><a href="portfolio_posts/Climate_Code_Total.html" target="_blank">View Full Chart and Code</a></p>
+
+      <h3>Ruby-Throated Hummingbirds Migration Project</h3>
+      <p>Here is an interactive map showing Ruby-Throated Hummingbirds migration by month over the course of 2023:</p>
+      <embed type="text/html" src="portfolio_posts/migration.html" height="800">
+
+      <p>The Ruby-Throated Hummingbird is the only hummingbird inhabiting the Eastern United States, as well as southern Canada and as far west as Oklahoma in the south and Alberta in the north. They migrate south across the Gulf of Mexico and winter in southern Mexico and Central America.</p>
+
+      <img src="303881521-480px.jpg" alt="Ruby-Throated Hummingbird" style="max-width:40%; height:auto;">
+
+      <p>These birds can beat their wings up to 50 times a second, allowing them to hover in place. Their nests are made of woven plant matter, spider silk, and lichen — just large enough for the mother. A full-grown adult weighs only 2–3 grams yet migrates up to 500 miles across the Gulf of Mexico in a single trip! To prepare, they double their fat reserves and take advantage of favorable winds.</p>
+
+      <p>Interestingly, the range data from my map shows sightings farther north than expected — possibly hinting at a northward expansion due to climate change. Further research would be needed to confirm this.</p>
+
+      <p><b>Sources:</b><br>
+      <a href="https://www.audubon.org/magazine/10-fun-facts-about-ruby-throated-hummingbird" target="_blank">Audubon Society</a><br>
+      <a href="https://www.allaboutbirds.org/guide/Ruby-throated_Hummingbird/overview" target="_blank">All About Birds</a></p>
+    </div>
+
+  </div> <!-- End content container -->
+
+</body>
+</html>
