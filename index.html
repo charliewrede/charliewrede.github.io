@@ -152,7 +152,78 @@
       <a href="https://www.audubon.org/magazine/10-fun-facts-about-ruby-throated-hummingbird" target="_blank">Audubon Society</a><br>
       <a href="https://www.allaboutbirds.org/guide/Ruby-throated_Hummingbird/overview" target="_blank">All About Birds</a></p>
     </div>
+      <h3>NDVI & Race Inequality Analysis in Philadelphia (2020 Census + MODIS NDVI)</h3>
+      <p>
+        This project analyzes vegetation greenness (NDVI) across all census tracts in Philadelphia
+        and compares it to racial demographics using 2020 U.S. Census data. Satellite NDVI values
+        were computed using three 2021 MODIS scenes and averaged to produce a mean NDVI for each tract.
+      </p>
 
+      <p>
+        The goal of this analysis was to explore whether predominantly White, Black, Latino,
+        or Asian neighborhoods in Philadelphia experience different levels of vegetation cover — 
+        an important environmental justice indicator.
+      </p>
+
+      <h4>Methodology</h4>
+      <ul>
+        <li>Loaded 2010 Census tract geometries for Philadelphia County.</li>
+        <li>Downloaded 2020 Census PL94 race data via the Census API.</li>
+        <li>Loaded and processed MODIS NDVI rasters (16-day composites).</li>
+        <li>Computed tract-level mean NDVI using zonal statistics.</li>
+        <li>Generated correlation plots for:
+          <ul>
+            <li>% White vs NDVI</li>
+            <li>% Black vs NDVI</li>
+            <li>% Asian vs NDVI</li>
+            <li>% Latino (Hispanic) vs NDVI</li>
+          </ul>
+        </li>
+        <li>Compared groups using a boxplot of majority-race tracts.</li>
+      </ul>
+
+
+      <h4>NDVI vs % White Population</h4>
+      <!-- Insert scatterplot image here -->
+      <img src="portfolio_posts/ndvi_white_scatter.png" alt="NDVI vs White Population" />
+
+      <h4>NDVI vs % Black Population</h4>
+      <!-- Insert scatterplot image here -->
+      <img src="portfolio_posts/ndvi_black_scatter.png" alt="NDVI vs Black Population" />
+
+      <h4>NDVI vs % Asian Population</h4>
+      <!-- Insert scatterplot image here -->
+      <img src="portfolio_posts/ndvi_asian_scatter.png" alt="NDVI vs Asian Population" />
+
+      <h4>NDVI vs % Latino Population</h4>
+      <!-- Insert scatterplot image here -->
+      <img src="portfolio_posts/ndvi_latino_scatter.png" alt="NDVI vs Latino Population" />
+
+
+      <h4>Mean NDVI by Majority Race Group</h4>
+      <!-- Insert boxplot image here -->
+      <img src="portfolio_posts/ndvi_majority_boxplot.png" alt="NDVI by Majority Race Group" />
+
+      <p>
+        <b>Interpretation:</b>  
+        NDVI values generally ranged from 0.25–0.55 across Philadelphia, which is typical for an urban–suburban
+        environment with a mix of tree canopy, parks, sidewalks, and built infrastructure.  
+        Across racial groups, the differences in NDVI were small and correlations were close to zero,
+        suggesting no strong relationship between racial composition and vegetation greenness at the census-tract scale.
+      </p>
+
+      <p>
+        The boxplot comparing majority-White, majority-Black, majority-Latino, and majority-Asian neighborhoods 
+        shows modest variation but no clear environmental disparity in vegetation cover according to this dataset 
+        and time window. Additional factors such as income, zoning, tree canopy data, or longitudinal NDVI could 
+        provide deeper insight.
+      </p>
+
+      <p>
+        <a href="portfolio_posts/race_ndvi_code.html" target="_blank">
+          View Full Code for the Project
+        </a>
+      </p>
   </div>
 
 </body>
