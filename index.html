@@ -160,18 +160,17 @@
       </p>
 
       <p>
-        The goal of this analysis was to explore whether predominantly White, Black, Latino,
-        or Asian neighborhoods in Philadelphia experience different levels of vegetation cover — 
-        an important environmental justice indicator.
+        The goal of this analysis was to explore whether majority White, Black, Latino,
+        or Asian neighborhoods in Philadelphia experience different levels of vegetation cover. 
       </p>
 
       <h4>Methodology</h4>
       <ul>
         <li>Loaded 2010 Census tract geometries for Philadelphia County.</li>
-        <li>Downloaded 2020 Census PL94 race data via the Census API.</li>
-        <li>Loaded and processed MODIS NDVI rasters (16-day composites).</li>
+        <li>Downloaded 2020 Census racial demographics data via the Census API.</li>
+        <li>Loaded and processed MODIS NDVI rasters.</li>
         <li>Computed tract-level mean NDVI using zonal statistics.</li>
-        <li>Generated correlation plots for:
+        <li>Built correlation plots for:
           <ul>
             <li>% White vs NDVI</li>
             <li>% Black vs NDVI</li>
@@ -205,22 +204,28 @@
       <img src="portfolio_posts/Boxplot.png" alt="NDVI by Majority Race Group" />
 
       <p>
-        <b>Interpretation:</b>  
-        NDVI values generally ranged from 0.25–0.55 across Philadelphia, which is typical for an urban–suburban
-        environment with a mix of tree canopy, parks, sidewalks, and built infrastructure.  
-        Across racial groups, the differences in NDVI were small and correlations were close to zero,
-        suggesting no strong relationship between racial composition and vegetation greenness at the census-tract scale.
+        <b>Summary:</b>  
+        NDVI values generally ranged from 0.25–0.55 across Philadelphia, which is typical for an urban/suburban
+        environment. 
+        Across racial groups, the differences in NDVI for White and Black populations were small and correlations were close to zero,
+        suggesting no strong relationship between racial composition and vegetation greenness at the census-tract scale. Asian and Latino
+        populations however did show negative correlations, however they had far less neighborhoods with majorities (Asian: 1 and Latino: 23)
+        this probably suggests an issue with aggregation/standardization which I think I'll look into. However I would say the Latino correlation 
+        is interesting as there are more data points there.
       </p>
 
       <p>
-        The boxplot comparing majority-White, majority-Black, majority-Latino, and majority-Asian neighborhoods 
-        shows modest variation but no clear environmental disparity in vegetation cover according to this dataset 
-        and time window. Additional factors such as income, zoning, tree canopy data, or longitudinal NDVI could 
-        provide deeper insight.
+        The boxplot comparing majority White, majority Black, majority Latino, and majority Asian neighborhoods 
+        shows little variation between White and Black neighborhoods and some with Latino and a lot with Asian. I did find this interesting. Upon
+        some research I realized the main reason is due to a large white population in South Philadelphia, this area is quite urban with a low NDVI
+        and is known for it's large Italian and Irish American groups. I can confirm this as an Italian American from Philadelphia. This begs the question
+        do White and Black people live in largely equal NDVI areas or did I aggregate the areas incorrectly as my analysis largely just focuses on
+        block groups and doesn't let large population block groups wiegh more than others. This will probably be the next step moving forward.
+        of 
       </p>
 
       <p>
-        <a href="portfolio_posts/Portfolio_Philadelphia (2).html" target="_blank">
+        <a href="portfolio_posts/Portfolio_Philadelphia (3).html" target="_blank">
           View Full Code for the Project
         </a>
       </p>
