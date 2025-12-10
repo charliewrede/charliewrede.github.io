@@ -165,21 +165,43 @@
       </p>
 
       <h4>Methodology</h4>
+
+      <p>
+      This project integrates satellite-derived vegetation data (NDVI) with 2020 U.S. Census racial
+      demographics to explore possible environmental inequalities across Philadelphia neighborhoods. 
+      The workflow consisted of the following major steps:
+      </p>
+
       <ul>
-        <li>Loaded 2010 Census tract geometries for Philadelphia County.</li>
-        <li>Downloaded 2020 Census racial demographics data via the Census API.</li>
-        <li>Loaded and processed MODIS NDVI rasters.</li>
-        <li>Computed tract-level mean NDVI using zonal statistics.</li>
-        <li>Built correlation plots for:
-          <ul>
-            <li>% White vs NDVI</li>
-            <li>% Black vs NDVI</li>
-            <li>% Asian vs NDVI</li>
-            <li>% Latino (Hispanic) vs NDVI</li>
-          </ul>
-        </li>
-        <li>Compared groups using a boxplot of majority-race tracts.</li>
-      </ul>
+          <li><b>Census Tract Geometry:</b> Loaded 2010 census tract boundaries for Philadelphia County from OpenDataPhilly.</li>
+
+          <li><b>Demographic Data:</b> Retrieved 2020 Census PL 94-171 racial data via the U.S. Census API, including counts for 
+          White, Black, Asian, and Hispanic/Latino residents. Converted all counts to percentages.</li>
+
+      <li><b>MODIS NDVI Processing:</b> Loaded multiple 2023 MOD13Q1 NDVI scenes using rioxarray. Applied MODIS scaling factors 
+        and filtered out invalid pixels. Computed a mean NDVI raster across all dates.</li>
+
+      <li><b>Zonal Statistics:</b> For each census tract, clipped the NDVI raster and calculated mean NDVI. 
+        These values represent average greenness conditions at the neighborhood level.</li>
+
+      <li><b>Correlation Analysis:</b> Produced scatterplots comparing NDVI to each racial group's proportional population share.</li>
+
+      <li><b>Majority-Group Analysis:</b> Identified majority-White, majority-Black, majority-Asian, and majority-Latino tracts 
+      and compared their vegetation levels via a boxplot.</li>
+
+      <li><b>Bivariate Choropleth Maps:</b> Created four maps combining NDVI and racial percentages using a 3×3 color matrix.
+      Each map visualizes joint patterns of vegetation (Low–High) and racial concentration (Low–High):
+        <ul>
+          <li>The horizontal axis of the legend represents racial percentage (Low → High).</li>
+          <li>The vertical axis represents NDVI (Low → High).</li>
+          <li>Colors in the map correspond to one of nine combinations (e.g., high race % + low NDVI).</li>
+        </ul>
+    </li>
+
+      <li><b>Environmental Justice Assessment:</b> Ranked census tracts with the highest racial concentrations 
+      and lowest NDVI to identify potential areas of environmental disadvantage.</li>
+  </ul>
+
 
 
       <h4>NDVI vs % White Population</h4>
